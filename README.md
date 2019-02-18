@@ -38,12 +38,20 @@ Temp is created to store all of the run-time output of cromwell including the ou
 
 2) bulkRNAseq_out (can be specified in ```bulkRNAseq_slurm.sh```)
 
+Important files at each step are automatically moved to one of the 3 following subdirectories
+
 2.a) STAR_out
   
     a) $.ReadsPerGene.out.tab
     b) $.Aligned.out.tab
     
 2.b) MarkDuplicates_out
-
+  
+    a) $.marked_dup_metrics.txt
+    b) $.marked_dup.bam
+    
 2.c) RSEM_out
-
+  
+    a) $.isoforms.results
+    b) $.genes.results
+    
