@@ -36,5 +36,14 @@ When Running on Ruddle, these modules are automatically loaded within the wdl
 
 Temp is created to store all of the run-time output of cromwell including the output of STAR, RSEM, and MarkDuplicates as well as any error or log messages.
 
-2) bulkRNAseq_out (can be specified in ```bulkRNAseq_slurm.sh```
+2) bulkRNAseq_out (can be specified in ```bulkRNAseq_slurm.sh```)
+
+2.a) STAR_out
+  
+    a) $.ReadsPerGene.out.tab
+    b) $.Aligned.out.tab
+    
+2.b) MarkDuplicates_out
+
+2.c) RSEM_out
 
