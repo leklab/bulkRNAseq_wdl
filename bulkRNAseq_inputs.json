@@ -1,0 +1,6 @@
+{
+  "bulkRNAseq.rsem_reference": "/home/ec753/project/RNAseq/rsem_reference_GRCh38_gencode26_ercc/rsem_reference",
+  "bulkRNAseq.star_index": "/gpfs/ycga/project/ysm/lek/shared/tools/gtex_pipeline/required_files/STAR_genome_GRCh38_noALT_noHLA_noDecoy_ERCC_v26_oh100/",
+  "bulkRNAseq.bulkRNAseq_fastqs": "/home/ec753/project/RNAseq/dux4_input_fastqs.txt",
+  "bulkRNAseq.paired_end_reads": "FALSE"
+}

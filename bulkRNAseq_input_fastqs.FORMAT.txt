@@ -1,0 +1,6 @@
+sample1	path/to/fastq1_1 path/to/fastq2_1
+sample2	path/to/fastq1_2 path/to/fastq2_2
+sample3	path/to/fastq1_3 path/to/fastq2_3
+sample4	path/to/fastq1_4 path/to/fastq2_4
+sample5	path/to/fastq1_5 path/to/fastq2_5
+sample6	path/to/fastq1_6 path/to/fastq2_6
